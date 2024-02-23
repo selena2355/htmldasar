@@ -40,10 +40,10 @@
             table.with-border th {
                 border: 1px solid black; /* Tentukan border */
                 padding: 8px; /* Padding */
-                text-align: left; /* Posisi teks */
+                text-align: center; /* Posisi teks */
                 font-family: 'Bahnschrift', sans-serif; /* Menggunakan font Bahnschrift */
                 line-height: 0.5; /* Mengurangi jarak antara baris */
-                text-align: center; /* Membuat teks header menjadi terpusat */
+                font-size: 11px;
             }
             table.with-border td {
                 border: 1px solid black; /* Tentukan border */
@@ -51,6 +51,7 @@
                 text-align: left; /* Posisi teks */
                 font-family: 'Bahnschrift', sans-serif; /* Menggunakan font Bahnschrift */
                 line-height: 0.5; /* Mengurangi jarak antara baris */
+                font-size: 11px;
             }
 
             /* Gaya untuk tabel tanpa border */
@@ -65,6 +66,7 @@
                 text-align: left; /* Posisi teks */
                 font-family: 'Bahnschrift', sans-serif; /* Menggunakan font Bahnschrift */
                 line-height: 0.5; /* Mengurangi jarak antara baris */
+                font-size: 11px;
             }
         </style>
     </head>
@@ -89,100 +91,79 @@
             </div><br>
             <table class="no-border">
                 <tr>
-                    <h4>
-                        <th>Nama Mahasiswa</th>
-                        <td>: Hanifah Alya Nuraini</td>
-                        <th>Jurusan</th>
-                        <td>: Teknik</td>
-                    </h4>
+                    <th>Nama Mahasiswa</th>
+                    <td>: Hanifah Alya Nuraini</td>
+                    <th>Jurusan</th>
+                    <td>: Teknik</td>
                 </tr>
                 <tr>
-                    <h4>
-                        <th>NIM</th>
-                        <td>: 23330715</td>
-                        <th>Program Studi</th>
-                        <td>: Teknologi Informasi</td>
-                    </h4>
+                   <th>NIM</th>
+                    <td>: 23330715</td>
+                    <th>Program Studi</th>
+                    <td>: Teknologi Informasi</td>
                 </tr>
                 <tr>
-                    <h4>
-                        <td>
-                            <b>Mata Kuliah yang Ditempuh:</b>
-                        </td>
-                    </h4>
-                    
+                    <td>
+                        <b>Mata Kuliah yang Ditempuh:</b>
+                    </td>    
                 </tr>
             </table>
             <table class="with-border">
                 <tr>
-                    <h4>
-                        <th>No</th>
-                        <th>Kode MK</th>
-                        <th>Mata Kuliah</th>
-                        <th>SKS</th>
-                        <th>Kelas</th>
-                        <th>Dosen Pengampu</th>
-                    </h4>
+                    <th>No</th>
+                    <th>Kode MK</th>
+                    <th>Mata Kuliah</th>
+                    <th>SKS</th>
+                    <th>Kelas</th>                        
+                    <th>Dosen Pengampu</th>
                 </tr>
                 <tr>
-                    <h4>
-                        <td>1</td>
-                        <td>MKU2201</td>
-                        <td>Agama Islam</td>
-                        <td>2</td>
-                        <td>2A</td>
-                        <td>Dr. Nanik Nurhayati, S.Ag., M.Pd.</td>
-                    </h4>
+                    <td>1</td>
+                    <td>MKU2201</td>
+                    <td>Agama Islam</td>
+                    <td>2</td>
+                    <td>2A</td>
+                    <td>Dr. Nanik Nurhayati, S.Ag., M.Pd.</td>
                 </tr>
                 <tr>
-                    <h4>
-                        <td>2</td>
-                        <td>TI22202</td>
-                        <td>Pemrograman Mobile 1</td>
-                        <td>2</td>
-                        <td>2A</td>
-                        <td>Angger Binuko Paksi, M.Kom.</td>
-                    </h4>
+                    <td>2</td>
+                    <td>TI22202</td>
+                    <td>Pemrograman Mobile 1</td>
+                    <td>2</td>
+                    <td>2A</td>
+                    <td>Angger Binuko Paksi, M.Kom.</td>
                 </tr>
                 <tr>
-                    <h4>
-                        <td>3</td>
-                        <td>TI22203</td>
-                        <td>Praktik Pemrograman Mobile 1</td>
-                        <td>2</td>
-                        <td>2A</td>
-                        <td>Angger Binuko Paksi, M.Kom.</td>
-                    </h4>
+                    <td>3</td>
+                    <td>TI22203</td>
+                    <td>Praktik Pemrograman Mobile 1</td>
+                    <td>2</td>
+                    <td>2A</td>
+                    <td>Angger Binuko Paksi, M.Kom.</td>
                 </tr>
                 <tr>
-                    <h4>
-                        <td>4</td>
-                        <td>TI22204</td>
-                        <td>Manajemen Resiko Proyek</td>
-                        <td>2</td>
-                        <td>2A</td>
-                        <td>Nisa'ul Hafidhoh, M.T.</td>
-                    </h4>
+                    <td>4</td>
+                    <td>TI22204</td>
+                    <td>Manajemen Resiko Proyek</td>
+                    <td>2</td>
+                    <td>2A</td>
+                    <td>Nisa'ul Hafidhoh, M.T.</td>
                 </tr>
                 <tr>
-                    <h4>
-                        <td>5</td>
-                        <td>TI22205</td>
-                        <td>Pemrograman Berbasis Obyek</td>
-                        <td>2</td>
-                        <td>2A</td>
-                        <td>Mochamat Bayu Aji, M.Kom.</td>
-                    </h4>
+                    <td>5</td>
+                    <td>TI22205</td>
+                    <td>Pemrograman Berbasis Obyek</td>
+                    <td>2</td>
+                    <td>2A</td>
+                    <td>Mochamat Bayu Aji, M.Kom.</td>
                 </tr>
                 <tr>
-                    <h4>
-                        <td>6</td>
-                        <td>TI22206</td>
-                        <td>Praktik Pemrograman Berbasis Obyek</td>
-                        <td>2</td>
-                        <td>2A</td>
-                        <td>Mochamat Bayu Aji, M.Kom.</td>
-                    </h4>
+                    <td>6</td>
+                    <td>TI22206</td>
+                    <td>Praktik Pemrograman Berbasis Obyek</td>
+                    <td>2</td>
+                    <td>2A</td>
+                    <td>Mochamat Bayu Aji, M.Kom.</td>
                 </tr>
                 <tr>
                     <h4>
