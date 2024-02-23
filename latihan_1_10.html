@@ -23,9 +23,11 @@
         <style>
             /* Gaya CSS untuk garis ganda */
             hr.double-line {
-                border-top: 1px solid black; /* Garis atas */
-                border-bottom: 1px solid black; /* Garis bawah */
-                margin: 100px 0; /* Menambahkan margin atas dan bawah */
+                border: none; /* Menghapus border bawaan */
+                height: 2px; /* Tinggi garis */
+                background: linear-gradient(to right, black 50%, transparent 50%); /* Gradient horizontal */
+                background-size: 4px 100%; /* Ukuran gradient */
+                margin: 20px 0; /* Menambahkan margin atas dan bawah */
             }
         </style>
     </head>
