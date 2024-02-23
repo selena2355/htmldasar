@@ -32,6 +32,28 @@
                 width: 120px; /* Lebar gambar */
                 height: auto; /* Tinggi gambar disesuaikan secara otomatis */
             }
+            /* Gaya untuk tabel dengan border */
+            table.with-border {
+                width: 100%; /* Lebar tabel */
+                border-collapse: collapse; /* Gabungkan batas sel */
+            }
+            table.with-border th,
+            table.with-border td {
+                border: 1px solid black; /* Tentukan border */
+                padding: 8px; /* Padding */
+                text-align: left; /* Posisi teks */
+            }
+
+            /* Gaya untuk tabel tanpa border */
+            table.no-border {
+                width: 100%; /* Lebar tabel */
+                border-collapse: collapse; /* Gabungkan batas sel */
+            }      
+            table.no-border th,
+            table.no-border td {
+                padding: 8px; /* Padding */
+                text-align: left; /* Posisi teks */
+            }
         </style>
     </head>
     <body>
@@ -52,8 +74,8 @@
                 <b>KARTU RENCANA STUDI<br>
                 SEMESTER GENAP<br>
                 TAHUN AKADEMIK 2022/2023</b>
-            </div>
-            <table border="0px" bgcolor="white" width="500px">
+            </div><br>
+            <table class="no-border">
                 <tr>
                     <td> Nama Mahasiswa </td>
                     <td>: Hanifah Alya Nuraini</td>
