@@ -37,7 +37,14 @@
                 width: 100%; /* Lebar tabel */
                 border-collapse: collapse; /* Gabungkan batas sel */
             }
-            table.with-border th,
+            table.with-border th {
+                border: 1px solid black; /* Tentukan border */
+                padding: 8px; /* Padding */
+                text-align: left; /* Posisi teks */
+                font-family: 'Bahnschrift', sans-serif; /* Menggunakan font Bahnschrift */
+                line-height: 0.5; /* Mengurangi jarak antara baris */
+                text-align: center; /* Membuat teks header menjadi terpusat */
+            }
             table.with-border td {
                 border: 1px solid black; /* Tentukan border */
                 padding: 8px; /* Padding */
@@ -106,18 +113,16 @@
                 </tr>
             </table>
             <table class="with-border">
-                <div style="text-align: center;">
-                    <tr>
-                        <h4>
-                            <th>No</th>
-                            <th>Kode MK</th>
-                            <th>Mata Kuliah</th>
-                            <th>SKS</th>
-                            <th>Kelas</th>
-                            <th>Dosen Pengampu</th>
-                        </h4>
-                    </tr>
-                </div>
+                <tr>
+                    <h4>
+                        <th>No</th>
+                        <th>Kode MK</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                        <th>Kelas</th>
+                        <th>Dosen Pengampu</th>
+                    </h4>
+                </tr>
             </table>
         </div>
                 
