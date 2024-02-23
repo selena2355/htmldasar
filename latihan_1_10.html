@@ -48,7 +48,6 @@
             table.with-border td {
                 border: 1px solid black; /* Tentukan border */
                 padding: 8px; /* Padding */
-                text-align: left; /* Posisi teks */
                 font-family: 'Bahnschrift', sans-serif; /* Menggunakan font Bahnschrift */
                 line-height: 0.5; /* Mengurangi jarak antara baris */
                 font-size: 12px;
@@ -67,6 +66,13 @@
                 font-family: 'Bahnschrift', sans-serif; /* Menggunakan font Bahnschrift */
                 line-height: 0.3; /* Mengurangi jarak antara baris */
                 font-size: 12px;
+            }
+            /* CSS untuk perataan teks khusus pada kolom */
+            td.left-align {
+                text-align: left;
+            }
+            td.center-align {
+                text-align: center;
             }
         </style>
     </head>
@@ -118,88 +124,90 @@
                     <th>Dosen Pengampu</th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>MKU2201</td>
-                    <td>Agama Islam</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Dr. Nanik Nurhayati, S.Ag., M.Pd.</td>
+                    <td class="center-align">1</td>
+                    <td class="center-align">MKU2201</td>
+                    <td class="left-align">Agama Islam</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Dr. Nanik Nurhayati, S.Ag., M.Pd.</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>TI22202</td>
-                    <td>Pemrograman Mobile 1</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Angger Binuko Paksi, M.Kom.</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">TI22202</td>
+                    <td class="left-align">Pemrograman Mobile 1</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Angger Binuko Paksi, M.Kom.</td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>TI22203</td>
-                    <td>Praktik Pemrograman Mobile 1</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Angger Binuko Paksi, M.Kom.</td>
+                    <td class="center-align">3</td>
+                    <td class="center-align">TI22203</td>
+                    <td class="left-align">Praktik Pemrograman Mobile 1</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Angger Binuko Paksi, M.Kom.</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>TI22204</td>
-                    <td>Manajemen Resiko Proyek</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Nisa'ul Hafidhoh, M.T.</td>
+                    <td class="center-align">4</td>
+                    <td class="center-align">TI22204</td>
+                    <td class="left-align">Manajemen Resiko Proyek</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Nisa'ul Hafidhoh, M.T.</td>
                 </tr>
                 <tr>
-                    <td>5</td>
-                    <td>TI22205</td>
-                    <td>Pemrograman Berbasis Obyek</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Mochamat Bayu Aji, M.Kom.</td>
+                    <td class="center-align">5</td>
+                    <td class="center-align">TI22205</td>
+                    <td class="left-align">Pemrograman Berbasis Obyek</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Mochamat Bayu Aji, M.Kom.</td>
                 </tr>
                 <tr>
-                    <td>6</td>
-                    <td>TI22206</td>
-                    <td>Praktik Pemrograman Berbasis Obyek</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Mochamat Bayu Aji, M.Kom.</td>
+                    <td class="center-align">6</td>
+                    <td class="center-align">TI22206</td>
+                    <td class="left-align">Praktik Pemrograman Berbasis Obyek</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Mochamat Bayu Aji, M.Kom.</td>
                 </tr>
                 <tr>
-                    <td>7</td>
-                    <td>TI22207</td>
-                    <td>Desain & Pemrograman Web</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Gus Nanang Syaifuddin, S.Kom., M.Kom.</td>
+                    <td class="center-align">7</td>
+                    <td class="center-align">TI22207</td>
+                    <td class="left-align">Desain & Pemrograman Web</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Gus Nanang Syaifuddin, S.Kom., M.Kom.</td>
                 </tr>
                 <tr>
-                    <td>8</td>
-                    <td>TI22208</td>
-                    <td>Praktik Desain & Pemrograman Web</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Gus Nanang Syaifuddin, S.Kom., M.Kom.</td>
+                    <td class="center-align">8</td>
+                    <td class="center-align">TI22208</td>
+                    <td class="left-align">Praktik Desain & Pemrograman Web</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Gus Nanang Syaifuddin, S.Kom., M.Kom.</td>
                 </tr>
                 <tr>
-                    <td>9</td>
-                    <td>TI22209</td>
-                    <td>Sistem Operasi</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Hendrik Kusbandono, S.Kom., M.Kom.</td>
+                    <td class="center-align">9</td>
+                    <td class="center-align">TI22209</td>
+                    <td class="left-align">Sistem Operasi</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Hendrik Kusbandono, S.Kom., M.Kom.</td>
                 </tr>
                 <tr>
-                    <td>10</td>
-                    <td>TI222010</td>
-                    <td>Praktik Sistem Operasi</td>
-                    <td>2</td>
-                    <td>2A</td>
-                    <td>Hendrik Kusbandono, S.Kom., M.Kom.</td>
+                    <td class="center-align">10</td>
+                    <td class="center-align">TI222010</td>
+                    <td class="left-align">Praktik Sistem Operasi</td>
+                    <td class="center-align">2</td>
+                    <td class="center-align">2A</td>
+                    <td class="left-align">Hendrik Kusbandono, S.Kom., M.Kom.</td>
                 </tr>
                 <tr>
-                    <td colspan="3">Jumlah</td>
-                    <td>20</td>
+                    <td colspan="3" class="center-align">Jumlah</td>
+                    <td class="center-align">20</td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </div>
