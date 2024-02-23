@@ -1,64 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contoh Tampilan Surat</title>
+    <title>Contoh Tabel</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
+        table {
+            width: 50%;
+            border-collapse: collapse; /* Menggabungkan batas sel */
         }
-        .letter {
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .logo {
-            width: 100px;
-            height: auto;
-        }
-        .address {
-            margin-bottom: 20px;
-        }
-        .body {
-            line-height: 1.6;
-        }
-        .footer {
-            margin-top: 20px;
-            font-style: italic;
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd; /* Batas sel */
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <div class="letter">
-        <div class="header">
-            <img src="logo.png" alt="Logo Perusahaan" class="logo">
-            <h2>Nama Perusahaan</h2>
-            <p>Alamat Perusahaan, Kota</p>
-        </div>
-        <div class="address">
-            <p>Tanggal: 22 Februari 2024</p>
-            <p>Kepada Yth.,</p>
-            <p>Nama Penerima</p>
-            <p>Alamat Penerima</p>
-        </div>
-        <div class="body">
-            <p>Assalamu'alaikum Wr. Wb.,</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, lorem sed vehicula fermentum, metus nisi suscipit libero, vitae rhoncus libero ipsum eu mauris. Donec nec nunc est.</p>
-            <p>Terima kasih.</p>
-        </div>
-        <div class="footer">
-            <p>Hormat Kami,</p>
-            <p>Nama Pengirim</p>
-        </div>
-    </div>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Usia</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+        </tr>
+    </table>
 </body>
 </html>
